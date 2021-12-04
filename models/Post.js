@@ -7,8 +7,12 @@ const postSchema = new mongoose.Schema({
   },
   description: {
     type: String,
-    required: true
+    //required: true
   },
+   markdown: {
+        type: String,
+        //require: true
+    },
   date: {
     type: Date,
     default: Date.now
